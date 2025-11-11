@@ -1,2 +1,4 @@
 # ignore all bash scripts
 *.sh
+# ignore all files withot extension
+!*.*
