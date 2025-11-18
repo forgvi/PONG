@@ -20,6 +20,7 @@ int main (void)
 
     return  0;
 }
+// fix github 
 // redo
 // void init_field(int width, int height) 
 // {
