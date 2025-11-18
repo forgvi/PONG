@@ -1,2 +1,2 @@
 # pong
-roup training project
+group training project
