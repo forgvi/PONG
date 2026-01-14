@@ -18,7 +18,7 @@ int main (void)
 
     return  0;
 }
-
+// rework this after learn arrays and inserted cycles
 // void init_field(int width, int height) 
 // {
 //     for (int i = 0; i < height; i++) {
@@ -31,16 +31,3 @@ int main (void)
 //         printf("\n");
 //     }
 // }
-
-void print_field(int width, int height) 
-{
-    for (int i = 0; i < height; i++) {
-        for (int j = 0; j < width; j++) {
-            if (i == 0 || i == (height - 1)) printf("%c", '-');
-            else if (j == 0 || j == (width -1)) printf("%c", '|');
-            else if ((i > 0 && i < width) && (j == (width / 2) - 1)) printf("%c", '|');
-            else printf("%c", ' ');
-        }
-        printf("\n");
-    }
-}
